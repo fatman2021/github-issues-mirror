@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "fff90a71843c85bcd10e02d903b1b2ce",
+    "content-hash": "ad4d89aab33684cfee8f3f02ad598223",
     "packages": [
         {
             "name": "ezyang/htmlpurifier",
@@ -49,7 +49,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2013-11-30 08:25:19"
+            "time": "2013-11-30T08:25:19+00:00"
         },
         {
             "name": "guzzle/guzzle",
@@ -141,7 +141,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2014-05-07 17:04:22"
+            "time": "2014-05-07T17:04:22+00:00"
         },
         {
             "name": "knplabs/github-api",
@@ -202,7 +202,7 @@
                 "gist",
                 "github"
             ],
-            "time": "2014-07-31 23:03:14"
+            "time": "2014-07-31T23:03:14+00:00"
         },
         {
             "name": "michelf/php-markdown",
@@ -253,7 +253,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2014-05-05 02:43:50"
+            "time": "2014-05-05T02:43:50+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
@@ -306,7 +306,7 @@
                 }
             ],
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
-            "time": "2014-05-14 07:04:18"
+            "time": "2014-05-14T07:04:18+00:00"
         },
         {
             "name": "slim/extras",
@@ -357,20 +357,20 @@
                 "middleware",
                 "templating"
             ],
-            "time": "2013-01-07 17:56:10"
+            "time": "2013-01-07T17:56:10+00:00"
         },
         {
             "name": "slim/slim",
-            "version": "2.4.3",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/codeguy/Slim.git",
-                "reference": "4906b77a07c7bd6ff1a99aea903e940a2d4fa106"
+                "url": "https://github.com/slimphp/Slim.git",
+                "reference": "e434525b348963457e00fe3d46376ebb70581781"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeguy/Slim/zipball/4906b77a07c7bd6ff1a99aea903e940a2d4fa106",
-                "reference": "4906b77a07c7bd6ff1a99aea903e940a2d4fa106",
+                "url": "https://api.github.com/repos/slimphp/Slim/zipball/e434525b348963457e00fe3d46376ebb70581781",
+                "reference": "e434525b348963457e00fe3d46376ebb70581781",
                 "shasum": ""
             },
             "require": {
@@ -403,7 +403,11 @@
                 "rest",
                 "router"
             ],
-            "time": "2014-04-05 18:33:59"
+            "support": {
+                "issues": "https://github.com/slimphp/Slim/issues",
+                "source": "https://github.com/slimphp/Slim/tree/master"
+            },
+            "time": "2015-03-02T02:13:34+00:00"
         },
         {
             "name": "slim/views",
@@ -457,7 +461,7 @@
                 "slimphp",
                 "templating"
             ],
-            "time": "2014-04-03 16:31:10"
+            "time": "2014-04-03T16:31:10+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -516,7 +520,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2014-07-08 12:21:33"
+            "time": "2014-07-08T12:21:33+00:00"
         },
         {
             "name": "twig/twig",
@@ -573,23 +577,16 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2014-02-13 10:19:29"
+            "time": "2014-02-13T10:19:29+00:00"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
 }
