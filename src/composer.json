@@ -1,7 +1,7 @@
 {
     "require": {
         "slim/slim": "2.*",
-        "twig/twig": "1.44.*",
+        "twig/twig": "3.11.*",
         "slim/views": "0.1.*",
         "slim/extras": "2.*",
         "knplabs/github-api": "1.2.*",
